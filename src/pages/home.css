@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Knewave&family=Nunito:wght@400;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  font-family: Nunito, sans-serif;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container-home {
+    width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 25px;
+  background-color: #111;
+}
+
+.container-titulo {
+  font-family: "Gill Sans", sans-serif;  
+  display: block;
+  font-size: 30px;
+  color: rgb(142, 72, 177);
+  line-height: 1.2;
+  text-align: center;
+  padding: 0px;
+}
+
+.container-links {
+  font-family: "Gill Sans", sans-serif;  
+  display: block;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  padding: 0px;
+  text-decoration: none;
+  
+  
+}
+
+
+
+.link-click {
+    color: rgb(142, 72, 177);
+    text-decoration: none;
+    font-weight: bold;
+    background-color: rgb(49, 225, 201);
+    display: block;
+    border-radius: 8px;
+}
+
+
+
+
+
+
+.wrap-home {
+    width: 450px;
+  background-color: #333;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 40px 55px 55px 55px;
+  box-shadow: 0 5px 10px 0px #7b32db;
+}
